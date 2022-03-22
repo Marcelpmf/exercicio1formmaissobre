@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Exercício Fábrica</title>
+
+    <style>
+        #area, .email, .senha, fieldset{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 5px;
+            border-color: black;
+            position: relative;
+        }
+
+        .botao{
+            border-radius: 10px;
+            border-color: black;
+            background-color: black;
+            color: white;
+            font-size: 15px;
+        }
+
+        fieldset{
+            background-color:aqua;
+        }
+
+        #sobre{
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: justify;
+        }
+
+.block-desc {
+    padding: 15px;
+    flex-grow: 1;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.block {
+    width: calc(100%/3 - 20px);
+    margin: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    background-color: #f7d087;
+    width: 100%;
+
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: coral;
+    margin: auto;
+
+
+}
+
+
+    </style>
+
+</head>
+<body>
+
+    <div id="sobre">
+
+        <div class="wrapper">
+            <div class="block">
+
+                <div class="block-desc">
+                Me chamo Marcel Paiva, sou estudante de <a href="https://www.unipe.edu.br/graduacao/ciencia-da-computacao/" target="_blank">Ciência da Computação</a> na <a href="https://www.unipe.edu.br/" target="_blank">Unipê</a> e tenho em mente entrar no projeto: Fábrica de Software neste semestre.<br><br>
+
+
+                Estou no 3º período do curso de Ciência da Computação e estou gostando. Pretendo conseguir um estágio ou emprego na área já esse ano, pois tenho várias metas para a minha vida financeira e também tenho metas pessoais que pretendo também alcançar ao longo do ano.
+                <hr color="black">
+
+                <strong>Meus interesses:</strong>
+                <ul>
+                    <strong>
+                    <li>CSS;</li>
+                    <li>HTML5;</li>
+                    <li>Javascript;</li>
+                    <li>React;</li>
+                    <li>Front-end no geral.</li>
+                </ul>
+            </strong>
+
+
+    </div>
+    <div id="area">
+    <fieldset style="width: 97%;">
+        <legend style="background-color: black; color: white; border-radius: 30px; padding: 10px; font-style: italic;">Formulário</legend>
+
+        <center>
+        <form autocomplete="off" method="GET" id="formu">
+            <label>Email:</label><br><input name="Email" type="email" class="email"><br><br>
+
+            <label>Senha:</label><br><input name="Senha" type="password" class="senha"><br><br>
+        </center>
+
+            <center>
+            <button>Entrar</button><br>
+            </center>
+
+
+
+
+        </form>
+    </fieldset>
+    </div>
+
+</body>
+</html>
